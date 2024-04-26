@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9adf9d;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .navbar-logo {
+    color: white;
+    font-size: 1.5em;
+    margin: 0; 
+  }
+  
+  .navbar-search {
+    padding: 10px;
+    border: none;
+    border-radius: 20px; 
+    width: 200px; 
+    background-color: #dbdada;
+    color: black;
+  }
+  
+.navbar-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px; /* You can adjust the padding to control the size of the buttons */
+    background-color: transparent; /* Use a transparent background for a text-only look */
+    border: none; /* No borders */
+    transition: color 0.3s ease; /* Transition for a color change on hover could be a nice effect */
+    margin-right: 10px; /
+    
+  }
+  
+  .navbar-link:hover {
+    background-color: #93aeb5; 
+  }
